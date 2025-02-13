@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Changed from height to min-height */
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center; 
+    margin: 20px 0; /* Ensure there's space around the heading */
+    padding: 10px; 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+h1 .logo {
+    height: 5em;
+    margin-left: 10px; /* Adjusted margin for proper alignment */
+    display: inline-block; /* Ensuring logo is treated as inline element */
+}
+
+h2 {
+    color: #00bcd4;
+    text-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+    text-align: center; /* Changed from left to center */
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgba(0, 188, 212, 0.8);
+    border: none;
+    color: #1f1f1f;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    background-color: rgba(0, 151, 167, 0.8);
+    transform: scale(1.05);
+}
+
+#info-wrapper {
+    display: flex;
+    justify-content: center; /* Centers both boxes horizontally */
+    align-items: flex-start; /* Aligns boxes at the top */
+    margin: 20px; /* Adjust margin as needed */
+}
+
+#weather-section, #stock-market {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+    width: 45%; /* Adjust width as needed */
+}
+
+#currency-section, #trivia {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#weather-info, #stock-data, #trivia-data {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#news-button {
+    background-color: rgba(0, 188, 212, 0.8);
+    border: none;
+    color: #1f1f1f;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#news-button:hover {
+    background-color: rgba(0, 151, 167, 0.8);
+    transform: scale(1.05);
+}
